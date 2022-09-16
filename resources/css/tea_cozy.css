@@ -1,0 +1,163 @@
+html {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+  }
+
+  .webnavdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    margin-left: -220px;
+}
+  
+ li.nav {
+    display: inline-block;
+ }
+
+ 
+
+
+li a {
+    padding: 5px;
+    color: seashell;
+}
+
+ ul {
+    text-align: right;
+    margin: 40px;
+    padding-left: 650px;
+ }
+    
+ 
+
+ header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    top: 0px;
+    background-color: black;
+    align-items: center;
+ }
+
+ main {
+    position: relative;
+    top: 150px;
+    opacity: 0.9;
+    margin: 100px;
+    text-align: center;
+    margin: auto;
+ }
+
+
+
+#mission {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1hri4sc*_ga*NjQyODM3MTY5LjE2NTIyNzQxMzM.*_ga_3LRZM6TM9L*MTY2MzE3NTM2MC4yMDYuMC4xNjYzMTc1MzYwLjYwLjAuMA..");
+    height: 700px;
+    
+    
+    
+}
+
+.missionbanner {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+
+h2{
+    margin: 0;
+    padding: 5px;
+}
+
+h4 {
+    margin: 0;
+    padding: 30px;
+}
+
+#teas h2 {
+    margin-top: 100px;   
+    padding: 5px;
+}
+
+#teas h4 {
+
+    margin-bottom: 100px;
+}
+
+
+
+.teapics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.blocks {
+    display: block;
+    margin: 10px;
+
+}
+
+
+.locations {
+    display: flex;
+    padding: 50px;
+    margin-top: 70px;
+    margin-left:100px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*14fhkkm*_ga*NjQyODM3MTY5LjE2NTIyNzQxMzM.*_ga_3LRZM6TM9L*MTY2MzMzNTA0OS4yMTEuMS4xNjYzMzM1MDg1LjI0LjAuMA..");
+    height: 500px;
+    width: 80%;   
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.location-container {
+   display: inline-block;
+   margin: auto;
+   width: 300px;
+   height: 300px;
+   background-color: black;
+   
+   padding: 5px;
+    
+}
+
+.loc {
+    margin-top: 600px;
+}
+
+.footerele {
+    text-align: left;
+}
